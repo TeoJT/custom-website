@@ -3,12 +3,10 @@
 	<head>
 		<title>The Stack</title>
 		<meta charset="UTF-8">
-		<link rel="stylesheet" href="../style.css">
+		<link rel="stylesheet" href="styles/style.css">
 		<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&display=swap" rel="stylesheet">
 		<link rel="icon" href="../assets/starbit.png">
-		<script type="text/javascript" defer="defer" src="../js/starbits.js" charset="utf-8"></script>
-		<script type="text/javascript" defer="defer" src="../js/mocha.js"></script>
-		<script type="text/javascript" defer="defer" src="../js/code2.js"></script>
+		<script type="text/javascript" defer="defer" src="js/code2.js"></script>
 	</head>
 
 	<style>
@@ -45,77 +43,6 @@
 				<p><a href="../notebook/hub.html">Notebook</a></p>
 			</div>
 		</section>
-
-
-
-
-		
-
-		<section>
-			<div class="panels" id="starbitPanel" style="align-content:center; animation-name: panelWarning; animation-duration: 4s; animation-iteration-count: infinite; animation-timing-function: linear;">
-				<h1>✦✦✦✦Starbits✦✦✦✦</h1>
-
-
-				<strong class="mega" id="starbits" style="margin-left:120px; width: 200px">
-					0
-				</strong><img src="../assets/starbit.png" width=60px height=60px class="pixelated" draggable="false">
-				<br>
-				<button value="click" onclick="addStarbits()">Add</button>
-				<button value="click" onclick="showOptions()">Options</button>
-				<br>
-				<br>
-				<!--<button value="click" onclick="dailySub()">Daily</button>-->
-				<p2 class="redAlert" style="display:none;">You're in the negative zone.</p2>
-				<p class="redAlert" style="display:none;">Try not to get too distracted!</p>
-
-				<tiny1 style="float:right;">(yay)</tiny1>
-				<br>
-
-				
-				
-			</div>
-			<div class="bonusInfo" style="display:none">
-				<strong><p class="bonusInfoText"></p></strong>
-			</div>
-			
-
-			<div class="panels">
-			</div>
-		</section>
-
-		
-		<div class="overlay background" style="display:none;"></div>
-		<div class="overlay menu" style="display:none;">
-			<img src="../assets/x.png" class="xbutton" draggable="false" style="float:right; margin:20px;" onclick="hideOptions()">
-			
-			<h1><u>✦Starbit Options✦</u></h1>
-			<br>
-			<p2><u>Intensity:</u></p2>
-			<button id="intensity1" onclick="difficulty = 1; setDifficulty();">Holiday</button>
-			<button id="intensity2" onclick="difficulty = 2; setDifficulty();">Relaxed</button>
-			<button id="intensity3" onclick="difficulty = 3; setDifficulty();">Normal</button>
-			<p id="workDescription">It would appear cookies are disabled! Either that or it's your first time using this page.</p>
-
-			<br>
-
-			<div id="undoReward" style="display: inline;">
-				<p2><u>Undo reward:</u></p2>
-				<p>If you have rewarded yourself undeserved starbits, you can undo the reward. Don't use it as a punish function though!</p>
-				<p2>Last reward: <asdf id="previousReward">0</asdf>✦</p2>
-				<button onclick="undoReward();">Undo</button>
-				<br>
-			</div>
-			
-			<p><a href="starbitsInfo.html" onclick="hideOptions();">Full rules</a></p>
-
-			<br>
-			
-			<div class="bonusInfo" style="display: initial">
-				<strong><p class="bonusInfoText"></p></strong>
-			</div>
-
-			
-		</div>
 
 
 	</body>

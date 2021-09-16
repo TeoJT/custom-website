@@ -142,7 +142,7 @@ button {
 
     .title {
         /* background-color: rgb(113, 102, 133); */
-        background-image: url("assets/mainmenutitlebar.png");
+        background-image: url("../assets/mainmenutitlebar.png");
         background-position-y: 400px;
         width:auto;
         margin:0px;
