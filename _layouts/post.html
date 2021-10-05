@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>{{ page.title }}</title>
+    <!-- link to main stylesheet -->
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <h1>{{ page.title }}</h1>
+        </div>
+    </header>
+    <div class="content">
+        <div class="container">
+            {{ content | newline_to_br }}
+        </div>
+    </div>
+    <br><br><br>
+
+    <footer>
+        <p><a href="/">Home</a></p>
+    </footer>
+    
+</body>
+
+</html>
