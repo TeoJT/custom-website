@@ -6,6 +6,6 @@ fileName="_posts/$createTime-$formattedName.md"
 echo "---" >> $fileName
 echo "layout: post" >> $fileName
 echo "title: \"$postName\"" >> $fileName
-echo "date: $createTime `date +"%T"` +0100" >> $fileName
+echo "date: $createTime `date +"%T"` +0000" >> $fileName
 echo "---" >> $fileName
 echo "" >> $fileName
