@@ -267,11 +267,11 @@ GEM
     zeitwerk (2.4.2)
 
 PLATFORMS
+  ruby
   x86_64-linux
 
 DEPENDENCIES
   github-pages (~> 219)
-  jekyll (~> 3.9.0)
   jekyll-feed (~> 0.6)
   minima (~> 2.0)
   tzinfo (~> 1.2)

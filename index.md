@@ -1,6 +1,8 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
-layout: home
+layout: default
+title: Web Programming
 ---
+<div class="blurb">
+<h1>Hello Sweet World</h1>
+<p>Once upon a time, ..</p>
+</div>
